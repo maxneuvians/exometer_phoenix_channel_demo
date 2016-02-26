@@ -1,5 +1,7 @@
 # ExometerPhoenixChannelDemo
 
+Demo here: [`https://exometer-phoenix-channel-demo.herokuapp.com/`](https://exometer-phoenix-channel-demo.herokuapp.com/)
+
 To start your Phoenix app:
 
   1. Install dependencies with `mix deps.get`
