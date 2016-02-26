@@ -25,6 +25,8 @@ defmodule ExometerReportPhoenixChannel do
 
   # Public function that should be implemented according to
   # https://github.com/Feuerlabs/exometer_core/blob/master/src/exometer_report_tty.erl
+  def exometer_subscribe(_, _, _, _, opts), do: {:ok, opts}
+  def exometer_unsubscribe(_, _, _, opts), do: {:ok, opts}
   def exometer_call(_, _, opts), do: {:ok, opts}
   def exometer_cast(_, opts), do: {:ok, opts}
   def exometer_info(_, opts), do: {:ok, opts}
