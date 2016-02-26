@@ -1,0 +1,39 @@
+2016-02-26 10:43:24.917 [info] <0.7.0> Application lager started on node nonode@nohost
+2016-02-26 10:43:24.923 [info] <0.7.0> Application setup started on node nonode@nohost
+2016-02-26 10:43:24.954 [info] <0.347.0>@exometer_report:do_start_reporters:632 Starting reporters with [{reporters,[{'Elixir.ExometerReportPhoenixChannel',[{app_name,<<"ExometerPhoenixChannelDemo">>},{channel,<<"stats">>}]}]},{subscribers,[{'Elixir.ExometerReportPhoenixChannel',[erlang,memory],[atom,binary,ets,processes,total],1000,true},{'Elixir.ExometerReportPhoenixChannel',[erlang,statistics],run_queue,1000,true}]}]
+2016-02-26 10:43:24.954 [info] <0.7.0> Application exometer_core started on node nonode@nohost
+2016-02-26 10:43:24.961 [info] <0.7.0> Application exometer started on node nonode@nohost
+2016-02-26 10:43:24.963 [info] <0.7.0> Application logger started on node nonode@nohost
+2016-02-26 10:43:24.963 [info] <0.7.0> Application phoenix_html started on node nonode@nohost
+2016-02-26 10:43:24.972 [info] <0.7.0> Application ranch started on node nonode@nohost
+2016-02-26 10:43:24.975 [info] <0.7.0> Application cowlib started on node nonode@nohost
+2016-02-26 10:43:24.982 [info] <0.7.0> Application cowboy started on node nonode@nohost
+2016-02-26 10:43:24.984 [info] <0.7.0> Application gettext started on node nonode@nohost
+2016-02-26 10:43:35.294 [warning] <0.6.0> lager_error_logger_h dropped 35 messages in the last second that exceeded the limit of 50 messages/sec
+2016-02-26 10:43:35.294 [info] <0.7.0> Application fs started on node nonode@nohost
+2016-02-26 10:43:35.294 [info] <0.7.0> Application phoenix_live_reload started on node nonode@nohost
+2016-02-26 10:44:39.951 [info] <0.7.0> Application lager started on node nonode@nohost
+2016-02-26 10:44:39.956 [info] <0.7.0> Application setup started on node nonode@nohost
+2016-02-26 10:44:39.971 [info] <0.234.0>@exometer_report:do_start_reporters:632 Starting reporters with [{reporters,[{'Elixir.ExometerReportPhoenixChannel',[{app_name,<<"ExometerPhoenixChannelDemo">>},{channel,<<"stats">>}]}]},{subscribers,[{'Elixir.ExometerReportPhoenixChannel',[erlang,memory],[atom,binary,ets,processes,total],1000,true},{'Elixir.ExometerReportPhoenixChannel',[erlang,statistics],run_queue,1000,true}]}]
+2016-02-26 10:44:39.972 [info] <0.7.0> Application exometer_core started on node nonode@nohost
+2016-02-26 10:44:39.975 [info] <0.7.0> Application exometer started on node nonode@nohost
+2016-02-26 10:44:39.976 [info] <0.7.0> Application logger started on node nonode@nohost
+2016-02-26 10:44:39.976 [info] <0.7.0> Application phoenix_html started on node nonode@nohost
+2016-02-26 10:44:39.981 [info] <0.7.0> Application ranch started on node nonode@nohost
+2016-02-26 10:44:39.983 [info] <0.7.0> Application cowlib started on node nonode@nohost
+2016-02-26 10:44:39.987 [info] <0.7.0> Application cowboy started on node nonode@nohost
+2016-02-26 10:44:39.989 [info] <0.7.0> Application gettext started on node nonode@nohost
+2016-02-26 10:45:06.264 [info] <0.7.0> Application lager started on node nonode@nohost
+2016-02-26 10:45:06.269 [info] <0.7.0> Application setup started on node nonode@nohost
+2016-02-26 10:45:06.293 [info] <0.234.0>@exometer_report:do_start_reporters:632 Starting reporters with [{reporters,[{'Elixir.ExometerReportPhoenixChannel',[{app_name,<<"ExometerPhoenixChannelDemo">>},{channel,<<"stats">>}]}]},{subscribers,[{'Elixir.ExometerReportPhoenixChannel',[erlang,memory],[atom,binary,ets,processes,total],1000,true},{'Elixir.ExometerReportPhoenixChannel',[erlang,statistics],run_queue,1000,true}]}]
+2016-02-26 10:45:06.293 [info] <0.7.0> Application exometer_core started on node nonode@nohost
+2016-02-26 10:45:06.296 [info] <0.7.0> Application exometer started on node nonode@nohost
+2016-02-26 10:45:06.297 [info] <0.7.0> Application logger started on node nonode@nohost
+2016-02-26 10:45:06.297 [info] <0.7.0> Application phoenix_html started on node nonode@nohost
+2016-02-26 10:45:06.304 [info] <0.7.0> Application ranch started on node nonode@nohost
+2016-02-26 10:45:06.306 [info] <0.7.0> Application cowlib started on node nonode@nohost
+2016-02-26 10:45:06.312 [info] <0.7.0> Application cowboy started on node nonode@nohost
+2016-02-26 10:45:06.314 [info] <0.7.0> Application gettext started on node nonode@nohost
+2016-02-26 10:45:09.093 [warning] <0.6.0> lager_error_logger_h dropped 76 messages in the last second that exceeded the limit of 50 messages/sec
+2016-02-26 10:45:09.094 [info] <0.7.0> Application fs started on node nonode@nohost
+2016-02-26 10:45:09.094 [info] <0.7.0> Application phoenix_live_reload started on node nonode@nohost
