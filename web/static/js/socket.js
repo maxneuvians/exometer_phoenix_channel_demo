@@ -24,7 +24,7 @@ $(function () {
         text: 'Erlang Memory'
     },
     subtitle: {
-        text: "Click on series to add or remove"
+        text: "Click on label to show/hide series"
     },
     xAxis: {
         type: 'datetime',
