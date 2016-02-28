@@ -89,6 +89,30 @@ $(function () {
     }
   });
 
+  let chart_3 = new Highcharts.Chart({
+
+    chart: {
+        renderTo: 'container_3',
+        defaultSeriesType: 'spline'
+    },
+    title: {
+        text: 'Run Queue'
+    },
+    xAxis: {
+        type: 'datetime',
+        tickPixelInterval: 150,
+        maxZoom: 20 * 1000
+    },
+    yAxis: {
+        minPadding: 0.2,
+        maxPadding: 0.2,
+        title: {
+            text: 'Processes',
+            margin: 80
+        }
+    }
+  });
+
   function join_channel(name, target_chart){
     var channel = socket.channel(name, {})
     channel.join()
@@ -130,6 +154,10 @@ $(function () {
   var topic = "stats:random_number_value_3"
   chart_2.addSeries({id: topic, name: "Random value #3"})
   join_channel(topic, chart_2)
+
+  var topic = "stats:erlang_statistics_run_queue"
+  chart_3.addSeries({id: topic, name: "Proccesses"})
+  join_channel(topic, chart_3)
 
 });
 

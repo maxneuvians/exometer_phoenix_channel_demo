@@ -8,7 +8,10 @@
 </div>
 <br/>
 <div class="row">
-  <div class="col-xs-12">
+  <div class="col-xs-12 col-sm-6">
     <div id="container_2" style="height: 400px; margin: 0 auto"></div>
+  </div>
+  <div class="col-xs-12 col-sm-6">
+    <div id="container_3" style="height: 400px; margin: 0 auto"></div>
   </div>
 </div>
