@@ -35,7 +35,7 @@ $(function () {
         minPadding: 0.2,
         maxPadding: 0.2,
         title: {
-            text: 'Bytes',
+            text: 'Bytes (Base10)',
             margin: 80
         }
     }
@@ -48,7 +48,7 @@ $(function () {
         defaultSeriesType: 'spline'
     },
     title: {
-        text: 'Erlang Run queue'
+        text: 'Socket connections'
     },
     xAxis: {
         type: 'datetime',
@@ -59,7 +59,31 @@ $(function () {
         minPadding: 0.2,
         maxPadding: 0.2,
         title: {
-            text: 'Processes',
+            text: 'Connections',
+            margin: 80
+        }
+    }
+  });
+
+  let chart_2 = new Highcharts.Chart({
+
+    chart: {
+        renderTo: 'container_2',
+        defaultSeriesType: 'spline'
+    },
+    title: {
+        text: 'Random numbers'
+    },
+    xAxis: {
+        type: 'datetime',
+        tickPixelInterval: 150,
+        maxZoom: 20 * 1000
+    },
+    yAxis: {
+        minPadding: 0.2,
+        maxPadding: 0.2,
+        title: {
+            text: 'Value',
             margin: 80
         }
     }
@@ -77,7 +101,7 @@ $(function () {
 
     channel.on("change", stat => {
       var series = target_chart.get(name)
-      var shift = series.data.length > 15
+      var shift = series.data.length > 40
       var point = [stat.timestamp, stat.value]
       series.addPoint(point, true, shift);
     })
@@ -91,11 +115,22 @@ $(function () {
     join_channel(topic, chart)
   }
 
-  var topic = "stats:erlang_statistics_run_queue"
-  chart_1.addSeries({id: topic, name: "Run queue"})
+  var topic = "stats:socket_connections_size"
+  chart_1.addSeries({id: topic, name: "Socket connections"})
   join_channel(topic, chart_1)
 
-});
+  var topic = "stats:random_number_value_1"
+  chart_2.addSeries({id: topic, name: "Random value #1"})
+  join_channel(topic, chart_2)
 
+  var topic = "stats:random_number_value_2"
+  chart_2.addSeries({id: topic, name: "Random value #2"})
+  join_channel(topic, chart_2)
+
+  var topic = "stats:random_number_value_3"
+  chart_2.addSeries({id: topic, name: "Random value #3"})
+  join_channel(topic, chart_2)
+
+});
 
 export default socket

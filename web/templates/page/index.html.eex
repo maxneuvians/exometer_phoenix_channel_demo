@@ -1,2 +1,14 @@
-<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-<div id="container_1" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<div class="row">
+  <div class="col-xs-12 col-sm-6">
+    <div id="container" style="height: 400px; margin: 0 auto"></div>
+  </div>
+  <div class="col-xs-12 col-sm-6">
+    <div id="container_1" style="height: 400px; margin: 0 auto"></div>
+  </div>
+</div>
+<br/>
+<div class="row">
+  <div class="col-xs-12">
+    <div id="container_2" style="height: 400px; margin: 0 auto"></div>
+  </div>
+</div>

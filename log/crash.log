@@ -1,0 +1,468 @@
+2016-02-26 17:32:55 =CRASH REPORT====
+  crasher:
+    initial call: exometer_report:-spawn_reporter/2-fun-0-/0
+    pid: <0.349.0>
+    registered_name: 'Elixir.ExometerReportPhoenixChannel'
+    exception error: bad argument: [{ets,lookup,['Elixir.ExometerPhoenixChannelDemo.PubSub',broadcast],[]},{'Elixir.Phoenix.PubSub',call,3,[{file,"lib/phoenix/pubsub.ex"},{line,183}]},{'Elixir.ExometerReportPhoenixChannel',exometer_report,5,[{file,"lib/exometer_phoenix_channel_demo/exometer_report_phoenix_channel.ex"},{line,21}]},{exometer_report,reporter_loop,2,[{file,"src/exometer_report.erl"},{line,1579}]},{proc_lib,init_p,3,[{file,"proc_lib.erl"},{line,225}]}]
+    ancestors: [exometer_report,exometer_core_sup,<0.342.0>]
+    messages: [{exometer_report,[erlang,memory],atom,undefined,512601},{exometer_report,[erlang,memory],binary,undefined,774208},{exometer_report,[erlang,memory],ets,undefined,5400840},{exometer_report,[erlang,memory],processes,undefined,7804712},{exometer_report,[erlang,memory],total,undefined,37455392}]
+    links: []
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 183
+  neighbours:
+2016-02-26 17:32:55 =CRASH REPORT====
+  crasher:
+    initial call: exometer_report:-spawn_reporter/2-fun-0-/0
+    pid: <0.373.0>
+    registered_name: 'Elixir.ExometerReportPhoenixChannel'
+    exception error: bad argument: [{ets,lookup,['Elixir.ExometerPhoenixChannelDemo.PubSub',broadcast],[]},{'Elixir.Phoenix.PubSub',call,3,[{file,"lib/phoenix/pubsub.ex"},{line,183}]},{'Elixir.ExometerReportPhoenixChannel',exometer_report,5,[{file,"lib/exometer_phoenix_channel_demo/exometer_report_phoenix_channel.ex"},{line,21}]},{exometer_report,reporter_loop,2,[{file,"src/exometer_report.erl"},{line,1579}]},{proc_lib,init_p,3,[{file,"proc_lib.erl"},{line,225}]}]
+    ancestors: [exometer_report,exometer_core_sup,<0.342.0>]
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 162
+  neighbours:
+2016-02-26 17:32:55 =CRASH REPORT====
+  crasher:
+    initial call: exometer_report:-spawn_reporter/2-fun-0-/0
+    pid: <0.382.0>
+    registered_name: 'Elixir.ExometerReportPhoenixChannel'
+    exception error: bad argument: [{ets,lookup,['Elixir.ExometerPhoenixChannelDemo.PubSub',broadcast],[]},{'Elixir.Phoenix.PubSub',call,3,[{file,"lib/phoenix/pubsub.ex"},{line,183}]},{'Elixir.ExometerReportPhoenixChannel',exometer_report,5,[{file,"lib/exometer_phoenix_channel_demo/exometer_report_phoenix_channel.ex"},{line,21}]},{exometer_report,reporter_loop,2,[{file,"src/exometer_report.erl"},{line,1579}]},{proc_lib,init_p,3,[{file,"proc_lib.erl"},{line,225}]}]
+    ancestors: [exometer_report,exometer_core_sup,<0.342.0>]
+    messages: []
+    links: []
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 162
+  neighbours:
+2016-02-27 12:39:30 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.341.0>
+    registered_name: []
+    exception exit: {{bad_return_value,{{exometer_core_app,start_phase,[preset_defaults,normal,[]]},{'EXIT',{function_clause,[{exometer_admin,new_entry,3,[{file,"src/exometer_admin.erl"},{line,175}]},{lists,foreach,2,[{file,"lists.erl"},{line,1337}]},{exometer_admin,load_predefined,0,[{file,"src/exometer_admin.erl"},{line,95}]},{application_starter,run_the_phase,4,[{file,"application_starter.erl"},{line,99}]},{application_starter,start_apps,3,[{file,"application_starter.erl"},{line,59}]},{application_starter,start,3,[{file,"application_starter.erl"},{line,45}]},{application_master,start_the_app,5,[{file,"application_master.erl"},{line,312}]},{application_master,start_it_new,7,[{file,"application_master.erl"},{line,295}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.340.0>]
+    messages: [{'EXIT',<0.342.0>,normal}]
+    links: [<0.340.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 156
+  neighbours:
+2016-02-27 12:42:06 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.341.0>
+    registered_name: []
+    exception exit: {{bad_return_value,{{exometer_core_app,start_phase,[preset_defaults,normal,[]]},{'EXIT',{{required,function},[{exometer_admin,new_entry,3,[{file,"src/exometer_admin.erl"},{line,175}]},{lists,foreach,2,[{file,"lists.erl"},{line,1337}]},{exometer_admin,load_predefined,0,[{file,"src/exometer_admin.erl"},{line,95}]},{application_starter,run_the_phase,4,[{file,"application_starter.erl"},{line,99}]},{application_starter,start_apps,3,[{file,"application_starter.erl"},{line,59}]},{application_starter,start,3,[{file,"application_starter.erl"},{line,45}]},{application_master,start_the_app,5,[{file,"application_master.erl"},{line,312}]},{application_master,start_it_new,7,[{file,"application_master.erl"},{line,295}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.340.0>]
+    messages: [{'EXIT',<0.342.0>,normal}]
+    links: [<0.340.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 156
+  neighbours:
+2016-02-27 12:58:56 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Phoenix.Channel.Server:init/1
+    pid: <0.388.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,not_found}},[{'Elixir.ExometerPhoenixChannelDemo.StatChannel',join,3,[{file,"web/channels/stat_channel.ex"},{line,5}]},{'Elixir.Phoenix.Channel.Server',init,1,[{file,"lib/phoenix/channel/server.ex"},{line,168}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.384.0>]
+    messages: []
+    links: [<0.384.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 127
+  neighbours:
+2016-02-27 12:58:56 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Phoenix.Channel.Server:init/1
+    pid: <0.390.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,not_found}},[{'Elixir.ExometerPhoenixChannelDemo.StatChannel',join,3,[{file,"web/channels/stat_channel.ex"},{line,5}]},{'Elixir.Phoenix.Channel.Server',init,1,[{file,"lib/phoenix/channel/server.ex"},{line,168}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.384.0>]
+    messages: []
+    links: [<0.384.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 123
+  neighbours:
+2016-02-27 12:58:56 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Phoenix.Channel.Server:init/1
+    pid: <0.391.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,not_found}},[{'Elixir.ExometerPhoenixChannelDemo.StatChannel',join,3,[{file,"web/channels/stat_channel.ex"},{line,5}]},{'Elixir.Phoenix.Channel.Server',init,1,[{file,"lib/phoenix/channel/server.ex"},{line,168}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.384.0>]
+    messages: []
+    links: [<0.384.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 119
+  neighbours:
+2016-02-27 12:58:56 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Phoenix.Channel.Server:init/1
+    pid: <0.392.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,not_found}},[{'Elixir.ExometerPhoenixChannelDemo.StatChannel',join,3,[{file,"web/channels/stat_channel.ex"},{line,5}]},{'Elixir.Phoenix.Channel.Server',init,1,[{file,"lib/phoenix/channel/server.ex"},{line,168}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.384.0>]
+    messages: []
+    links: [<0.384.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 123
+  neighbours:
+2016-02-27 12:58:56 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Phoenix.Channel.Server:init/1
+    pid: <0.393.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,not_found}},[{'Elixir.ExometerPhoenixChannelDemo.StatChannel',join,3,[{file,"web/channels/stat_channel.ex"},{line,5}]},{'Elixir.Phoenix.Channel.Server',init,1,[{file,"lib/phoenix/channel/server.ex"},{line,168}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.384.0>]
+    messages: []
+    links: [<0.384.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 127
+  neighbours:
+2016-02-27 12:58:56 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Phoenix.Channel.Server:init/1
+    pid: <0.394.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,not_found}},[{'Elixir.ExometerPhoenixChannelDemo.StatChannel',join,3,[{file,"web/channels/stat_channel.ex"},{line,5}]},{'Elixir.Phoenix.Channel.Server',init,1,[{file,"lib/phoenix/channel/server.ex"},{line,168}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.384.0>]
+    messages: []
+    links: [<0.384.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 131
+  neighbours:
+2016-02-27 12:59:01 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Phoenix.Channel.Server:init/1
+    pid: <0.396.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,not_found}},[{'Elixir.ExometerPhoenixChannelDemo.StatChannel',join,3,[{file,"web/channels/stat_channel.ex"},{line,5}]},{'Elixir.Phoenix.Channel.Server',init,1,[{file,"lib/phoenix/channel/server.ex"},{line,168}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.384.0>]
+    messages: []
+    links: [<0.384.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 119
+  neighbours:
+2016-02-27 12:59:01 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Phoenix.Channel.Server:init/1
+    pid: <0.397.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,not_found}},[{'Elixir.ExometerPhoenixChannelDemo.StatChannel',join,3,[{file,"web/channels/stat_channel.ex"},{line,5}]},{'Elixir.Phoenix.Channel.Server',init,1,[{file,"lib/phoenix/channel/server.ex"},{line,168}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.384.0>]
+    messages: []
+    links: [<0.384.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 123
+  neighbours:
+2016-02-27 12:59:01 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Phoenix.Channel.Server:init/1
+    pid: <0.398.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,not_found}},[{'Elixir.ExometerPhoenixChannelDemo.StatChannel',join,3,[{file,"web/channels/stat_channel.ex"},{line,5}]},{'Elixir.Phoenix.Channel.Server',init,1,[{file,"lib/phoenix/channel/server.ex"},{line,168}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.384.0>]
+    messages: []
+    links: [<0.384.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 119
+  neighbours:
+2016-02-27 12:59:01 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Phoenix.Channel.Server:init/1
+    pid: <0.399.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,not_found}},[{'Elixir.ExometerPhoenixChannelDemo.StatChannel',join,3,[{file,"web/channels/stat_channel.ex"},{line,5}]},{'Elixir.Phoenix.Channel.Server',init,1,[{file,"lib/phoenix/channel/server.ex"},{line,168}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.384.0>]
+    messages: []
+    links: [<0.384.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 119
+  neighbours:
+2016-02-27 12:59:01 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Phoenix.Channel.Server:init/1
+    pid: <0.400.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,not_found}},[{'Elixir.ExometerPhoenixChannelDemo.StatChannel',join,3,[{file,"web/channels/stat_channel.ex"},{line,5}]},{'Elixir.Phoenix.Channel.Server',init,1,[{file,"lib/phoenix/channel/server.ex"},{line,168}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.384.0>]
+    messages: []
+    links: [<0.384.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 127
+  neighbours:
+2016-02-27 12:59:01 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Phoenix.Channel.Server:init/1
+    pid: <0.401.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,not_found}},[{'Elixir.ExometerPhoenixChannelDemo.StatChannel',join,3,[{file,"web/channels/stat_channel.ex"},{line,5}]},{'Elixir.Phoenix.Channel.Server',init,1,[{file,"lib/phoenix/channel/server.ex"},{line,168}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.384.0>]
+    messages: []
+    links: [<0.384.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 131
+  neighbours:
+2016-02-27 13:01:33 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Phoenix.Channel.Server:init/1
+    pid: <0.502.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,not_found}},[{'Elixir.ExometerPhoenixChannelDemo.StatChannel',join,3,[{file,"web/channels/stat_channel.ex"},{line,5}]},{'Elixir.Phoenix.Channel.Server',init,1,[{file,"lib/phoenix/channel/server.ex"},{line,168}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.496.0>]
+    messages: []
+    links: [<0.496.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 127
+  neighbours:
+2016-02-27 13:01:33 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Phoenix.Channel.Server:init/1
+    pid: <0.503.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,not_found}},[{'Elixir.ExometerPhoenixChannelDemo.StatChannel',join,3,[{file,"web/channels/stat_channel.ex"},{line,5}]},{'Elixir.Phoenix.Channel.Server',init,1,[{file,"lib/phoenix/channel/server.ex"},{line,168}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.496.0>]
+    messages: []
+    links: [<0.496.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 119
+  neighbours:
+2016-02-27 13:01:33 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Phoenix.Channel.Server:init/1
+    pid: <0.504.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,not_found}},[{'Elixir.ExometerPhoenixChannelDemo.StatChannel',join,3,[{file,"web/channels/stat_channel.ex"},{line,5}]},{'Elixir.Phoenix.Channel.Server',init,1,[{file,"lib/phoenix/channel/server.ex"},{line,168}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.496.0>]
+    messages: []
+    links: [<0.496.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 119
+  neighbours:
+2016-02-27 13:01:33 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Phoenix.Channel.Server:init/1
+    pid: <0.505.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,not_found}},[{'Elixir.ExometerPhoenixChannelDemo.StatChannel',join,3,[{file,"web/channels/stat_channel.ex"},{line,5}]},{'Elixir.Phoenix.Channel.Server',init,1,[{file,"lib/phoenix/channel/server.ex"},{line,168}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.496.0>]
+    messages: []
+    links: [<0.496.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 123
+  neighbours:
+2016-02-27 13:01:33 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Phoenix.Channel.Server:init/1
+    pid: <0.506.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,not_found}},[{'Elixir.ExometerPhoenixChannelDemo.StatChannel',join,3,[{file,"web/channels/stat_channel.ex"},{line,5}]},{'Elixir.Phoenix.Channel.Server',init,1,[{file,"lib/phoenix/channel/server.ex"},{line,168}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.496.0>]
+    messages: []
+    links: [<0.496.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 127
+  neighbours:
+2016-02-27 13:01:33 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Phoenix.Channel.Server:init/1
+    pid: <0.507.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,not_found}},[{'Elixir.ExometerPhoenixChannelDemo.StatChannel',join,3,[{file,"web/channels/stat_channel.ex"},{line,5}]},{'Elixir.Phoenix.Channel.Server',init,1,[{file,"lib/phoenix/channel/server.ex"},{line,168}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,352}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.496.0>]
+    messages: []
+    links: [<0.496.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 131
+  neighbours:
+2016-02-27 13:19:16 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.341.0>
+    registered_name: []
+    exception exit: {{bad_return_value,{{exometer_core_app,start_phase,[preset_defaults,normal,[]]},{'EXIT',{function_clause,[{exometer_admin,new_entry,3,[{file,"src/exometer_admin.erl"},{line,175}]},{lists,foreach,2,[{file,"lists.erl"},{line,1337}]},{exometer_admin,load_predefined,0,[{file,"src/exometer_admin.erl"},{line,95}]},{application_starter,run_the_phase,4,[{file,"application_starter.erl"},{line,99}]},{application_starter,start_apps,3,[{file,"application_starter.erl"},{line,59}]},{application_starter,start,3,[{file,"application_starter.erl"},{line,45}]},{application_master,start_the_app,5,[{file,"application_master.erl"},{line,312}]},{application_master,start_it_new,7,[{file,"application_master.erl"},{line,295}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.340.0>]
+    messages: [{'EXIT',<0.342.0>,normal}]
+    links: [<0.340.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 156
+  neighbours:
+2016-02-28 18:01:53 =ERROR REPORT====
+** Generic server exometer_report terminating 
+** Last message in was {report,{key,'Elixir.ExometerReportPhoenixChannel',[random,number],result,true,undefined},1000,{1456,700512,676474}}
+** When Server state == {st,[],[]}
+** Reason for termination == 
+** {function_clause,[{random,uniform,[[result]],[{file,"random.erl"},{line,118}]},{exometer_function,get_value,4,[{file,"src/exometer_function.erl"},{line,242}]},{exometer,get_value,2,[{file,"src/exometer.erl"},{line,315}]},{exometer_report,get_values,2,[{file,"src/exometer_report.erl"},{line,1366}]},{exometer_report,do_report,2,[{file,"src/exometer_report.erl"},{line,1152}]},{exometer_report,handle_report,4,[{file,"src/exometer_report.erl"},{line,1139}]},{exometer_report,handle_info,2,[{file,"src/exometer_report.erl"},{line,1067}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2016-02-28 18:01:53 =CRASH REPORT====
+  crasher:
+    initial call: exometer_report:init/1
+    pid: <0.361.0>
+    registered_name: exometer_report
+    exception exit: {{function_clause,[{random,uniform,[[result]],[{file,"random.erl"},{line,118}]},{exometer_function,get_value,4,[{file,"src/exometer_function.erl"},{line,242}]},{exometer,get_value,2,[{file,"src/exometer.erl"},{line,315}]},{exometer_report,get_values,2,[{file,"src/exometer_report.erl"},{line,1366}]},{exometer_report,do_report,2,[{file,"src/exometer_report.erl"},{line,1152}]},{exometer_report,handle_report,4,[{file,"src/exometer_report.erl"},{line,1139}]},{exometer_report,handle_info,2,[{file,"src/exometer_report.erl"},{line,1067}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [exometer_core_sup,<0.357.0>]
+    messages: []
+    links: [<0.358.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 3343
+  neighbours:
+2016-02-28 18:01:53 =SUPERVISOR REPORT====
+     Supervisor: {local,exometer_core_sup}
+     Context:    child_terminated
+     Reason:     {function_clause,[{random,uniform,[[result]],[{file,"random.erl"},{line,118}]},{exometer_function,get_value,4,[{file,"src/exometer_function.erl"},{line,242}]},{exometer,get_value,2,[{file,"src/exometer.erl"},{line,315}]},{exometer_report,get_values,2,[{file,"src/exometer_report.erl"},{line,1366}]},{exometer_report,do_report,2,[{file,"src/exometer_report.erl"},{line,1152}]},{exometer_report,handle_report,4,[{file,"src/exometer_report.erl"},{line,1139}]},{exometer_report,handle_info,2,[{file,"src/exometer_report.erl"},{line,1067}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.361.0>},{id,exometer_report},{mfargs,{exometer_report,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-02-28 18:04:02 =ERROR REPORT====
+** Generic server exometer_report terminating 
+** Last message in was {report,{key,'Elixir.ExometerReportPhoenixChannel',[random,number],result,true,undefined},1000,{1456,700641,17163}}
+** When Server state == {st,[],[]}
+** Reason for termination == 
+** {'module could not be loaded',[{'ExostatHelper',random,[[result]],[]},{exometer_function,get_value,4,[{file,"src/exometer_function.erl"},{line,242}]},{exometer,get_value,2,[{file,"src/exometer.erl"},{line,315}]},{exometer_report,get_values,2,[{file,"src/exometer_report.erl"},{line,1366}]},{exometer_report,do_report,2,[{file,"src/exometer_report.erl"},{line,1152}]},{exometer_report,handle_report,4,[{file,"src/exometer_report.erl"},{line,1139}]},{exometer_report,handle_info,2,[{file,"src/exometer_report.erl"},{line,1067}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2016-02-28 18:04:02 =CRASH REPORT====
+  crasher:
+    initial call: exometer_report:init/1
+    pid: <0.361.0>
+    registered_name: exometer_report
+    exception exit: {{undef,[{'ExostatHelper',random,[[result]],[]},{exometer_function,get_value,4,[{file,"src/exometer_function.erl"},{line,242}]},{exometer,get_value,2,[{file,"src/exometer.erl"},{line,315}]},{exometer_report,get_values,2,[{file,"src/exometer_report.erl"},{line,1366}]},{exometer_report,do_report,2,[{file,"src/exometer_report.erl"},{line,1152}]},{exometer_report,handle_report,4,[{file,"src/exometer_report.erl"},{line,1139}]},{exometer_report,handle_info,2,[{file,"src/exometer_report.erl"},{line,1067}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [exometer_core_sup,<0.357.0>]
+    messages: []
+    links: [<0.358.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 3455
+  neighbours:
+2016-02-28 18:04:02 =SUPERVISOR REPORT====
+     Supervisor: {local,exometer_core_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{'ExostatHelper',random,[[result]],[]},{exometer_function,get_value,4,[{file,"src/exometer_function.erl"},{line,242}]},{exometer,get_value,2,[{file,"src/exometer.erl"},{line,315}]},{exometer_report,get_values,2,[{file,"src/exometer_report.erl"},{line,1366}]},{exometer_report,do_report,2,[{file,"src/exometer_report.erl"},{line,1152}]},{exometer_report,handle_report,4,[{file,"src/exometer_report.erl"},{line,1139}]},{exometer_report,handle_info,2,[{file,"src/exometer_report.erl"},{line,1067}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.361.0>},{id,exometer_report},{mfargs,{exometer_report,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2016-02-28 18:05:21 =ERROR REPORT====
+** Generic server exometer_report terminating 
+** Last message in was {report,{key,'Elixir.ExometerReportPhoenixChannel',[random,number],result,true,undefined},1000,{1456,700720,596215}}
+** When Server state == {st,[],[]}
+** Reason for termination == 
+** {function_clause,[{exometer_function,'-get_value/4-lc$^1/1-0-',[0.5194077573330378],[{file,"src/exometer_function.erl"},{line,242}]},{exometer,get_value,2,[{file,"src/exometer.erl"},{line,315}]},{exometer_report,get_values,2,[{file,"src/exometer_report.erl"},{line,1366}]},{exometer_report,do_report,2,[{file,"src/exometer_report.erl"},{line,1152}]},{exometer_report,handle_report,4,[{file,"src/exometer_report.erl"},{line,1139}]},{exometer_report,handle_info,2,[{file,"src/exometer_report.erl"},{line,1067}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2016-02-28 18:05:21 =CRASH REPORT====
+  crasher:
+    initial call: exometer_report:init/1
+    pid: <0.243.0>
+    registered_name: exometer_report
+    exception exit: {{function_clause,[{exometer_function,'-get_value/4-lc$^1/1-0-',[0.5194077573330378],[{file,"src/exometer_function.erl"},{line,242}]},{exometer,get_value,2,[{file,"src/exometer.erl"},{line,315}]},{exometer_report,get_values,2,[{file,"src/exometer_report.erl"},{line,1366}]},{exometer_report,do_report,2,[{file,"src/exometer_report.erl"},{line,1152}]},{exometer_report,handle_report,4,[{file,"src/exometer_report.erl"},{line,1139}]},{exometer_report,handle_info,2,[{file,"src/exometer_report.erl"},{line,1067}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,826}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [exometer_core_sup,<0.239.0>]
+    messages: []
+    links: [<0.240.0>]
+    dictionary: [{random_seed,{6995,27508,11543}}]
+    trap_exit: true
+    status: running
+    heap_size: 6772
+    stack_size: 27
+    reductions: 5059
+  neighbours:
+2016-02-28 18:05:21 =SUPERVISOR REPORT====
+     Supervisor: {local,exometer_core_sup}
+     Context:    child_terminated
+     Reason:     {function_clause,[{exometer_function,'-get_value/4-lc$^1/1-0-',[0.5194077573330378],[{file,"src/exometer_function.erl"},{line,242}]},{exometer,get_value,2,[{file,"src/exometer.erl"},{line,315}]},{exometer_report,get_values,2,[{file,"src/exometer_report.erl"},{line,1366}]},{exometer_report,do_report,2,[{file,"src/exometer_report.erl"},{line,1152}]},{exometer_report,handle_report,4,[{file,"src/exometer_report.erl"},{line,1139}]},{exometer_report,handle_info,2,[{file,"src/exometer_report.erl"},{line,1067}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,681}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.243.0>},{id,exometer_report},{mfargs,{exometer_report,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
