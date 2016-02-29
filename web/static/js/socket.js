@@ -96,7 +96,7 @@ $(function () {
         defaultSeriesType: 'spline'
     },
     title: {
-        text: 'Run Queue'
+        text: 'Erlang Run Queue'
     },
     xAxis: {
         type: 'datetime',
@@ -156,7 +156,7 @@ $(function () {
   join_channel(topic, chart_2)
 
   var topic = "stats:erlang_statistics_run_queue"
-  chart_3.addSeries({id: topic, name: "Proccesses"})
+  chart_3.addSeries({id: topic, name: "Processes"})
   join_channel(topic, chart_3)
 
 });
