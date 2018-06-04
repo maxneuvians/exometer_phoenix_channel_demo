@@ -1,4 +1,4 @@
-# ExometerPhoenixChannelDemo
+# ExometerPhoenixChannelDemoZ
 
 Demo here: [`https://exometer-phoenix-channel-demo.herokuapp.com/`](https://exometer-phoenix-channel-demo.herokuapp.com/)
 
